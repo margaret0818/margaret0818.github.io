@@ -1,0 +1,101 @@
+body {
+    background: #ABDFDF;
+    color: #000000;
+    font-family: 'Indie Flower', cursive;
+}
+h1,
+h2 {
+    font-weight: bold;
+}
+p {
+    font-size: 20px;
+    color: #000000;
+    margin-left: 10px;
+}
+.container {
+width: 90%;
+}
+.img-responsive {
+width: 100%;
+}
+
+.top-buffer5 { 
+margin-top: 5%; 
+}
+
+.buttons {
+position: relative;
+display: inline-block;
+}
+.buttons .img-top {
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 99;
+}
+.buttons:hover .img-top {
+display: inline;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.jumbotron {
+    background: url('img/bg7.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    color: black;
+    text-align: center;
+}
+.jumbotron p {
+    color: black;
+    font-size: 26px;
+}
+.navbar-inverse {
+    background: #2E2F31;
+    border: 0;
+}
+.dropdown-menu {
+    background: #2E2F31;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-inverse .navbar-nav li a {
+    color: white;
+    font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+    background: #ABDFDF;
+}
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+    background: #ABDFDF;
+}
+.dropdown-menu li a {
+    padding: 10px;
+}
+.btn-primary {
+    color: black;
+    background-color: transparent;
+    border-color: black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.btn-primary:hover {
+    color: #ABDFDF;
+    background-color: black;
+    border-color: black;
+}
+.glyphicon-large {
+    font-size: 100px;
+}
+.call-to-action {
+    text-align: center;
+}
+.call-to-action p {
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+

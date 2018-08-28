@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hi! I'm Margaret.</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-inverse navbar-static-top">
+
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Margaret Cheng</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">What I Made/Plan on making<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="holidaze.html">Romanian Holidays</a></li>
+                            <li><a href="wewalk.html">WeWalk</a></li>
+                            <li><a href="https://github.com/margaret0818/Happ">The Happ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+
+        <h1>Romanian Holidays</h1>
+    </div>
+    <div class="container">
+        <br>
+        <center>
+
+            <img src="img/Screen Shot 2018-08-15 at 12.22.36 AM.png" style="width:450px;height:370px;">
+            <h1>What is it?</h1>
+            <p>My friend and I always joke about how there’s a holiday for everything, and some of the holidays are so bizarre, like there’s one called Crush a Can day dedicated to crushing cans. So for this project I wanted to make a chrome extension that displays the weird holidays of that day in the new tab everytime you open a tab. I chose chrome extension because I think its best suited for my purpose. I don’t think people would remember to open up an app or navigate to a website everyday to see what holiday it is, but people are using the internet all the time, and thus opening up new tabs often. Therefore it would be easy to access often as well.</p>
+
+            <h1>I encountered some problems</h1>
+            <p>- I was not too familiar with API’s, what they’re used for, how to make a request, and using keys.</p><br>
+            <p>- I was trying to find an API that gives me all the weird holidays, like World Mosquito Day, and their date. I couldn’t find one, so I settled with one that gave me just the normal holidays. It wasn’t working when I tried to access the data, and I spent days reading about requesting and accessing json data. It looked like I was doing everything right, so in the end I just started using this other API, which was very limiting, because the free version only offered official Romanian holidays :( it worked, but the free version doesn’t last very long and the api key needs to renewed after every couple of hours. </p>
+
+            <h1>Accessing data</h1>
+            <p>- I had absolutely zero experience with this and had no idea how to go about getting data from the URL and displaying it on the webpage. Google helped me a lot, but i also had to know what I didn’t know in order to utilize google.</p>
+
+            <h1>What I learned</h1>
+            <p>- From using web API's, I now know what a query and a query builder is XD. I also now know that for web based api’s, the url link itself is actually like a api request, with it’s ? and = signs, which makes sense and is kinda cool.</p><br>
+            <p>- I now know what json is and how easy it is to use and access its data</p><br>
+            <p>- I learned about using XMLHttpRequests and javascript to display json data taken from a URL on my webpage</p>
+            <p>- Of course, now I know how to make a chrome extension</p>
+            <br>
+
+            <h1><a href="https://github.com/margaret0818/romanian-holidays">Check it out</a></h1>
+        </center>
+        <br><br><br>
+
+
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+    <script src="js/bootstrap.min.js">
+    </script>
+
+</body>
+
+</html>
